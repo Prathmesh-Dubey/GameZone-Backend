@@ -1,0 +1,30 @@
+{
+  "functions": [
+    {
+      "codebase": "default",
+      "ignore": [
+        "venv",
+        ".venv",
+        "__pycache__",
+        "*.pyc",
+        ".env",
+        ".env.*",
+        "functions/venv"
+      ],
+      "source": "."
+    },
+    {
+      "source": "game-back",
+      "codebase": "game-back",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "runtime": "python314"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Firebase Functions Python 2nd Gen – GameZone backend
+# Pin versions that are known to be mutually compatible on Cloud Functions
+
+firebase-functions>=0.1.0
+flask>=3.0.0
+supabase>=2.4.0
+python-dotenv>=1.0.0
